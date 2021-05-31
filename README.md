@@ -8,7 +8,9 @@ If you encounter such types, please help by replacing them with the actual type 
 
 # Install
 
-Run `setup.py`
+`pip install gtsam-stubs`
+
+Or, run `setup.py` after cloning this repo.
 
 # LICENSE
 

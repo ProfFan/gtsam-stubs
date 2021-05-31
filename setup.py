@@ -1,5 +1,6 @@
 from setuptools import setup
 import os
+from os import path
 
 
 def find_stubs(package):
@@ -10,15 +11,20 @@ def find_stubs(package):
             stubs.append(path)
     return {package: stubs}
 
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(
     name="gtsam-stubs",
     maintainer="Fan Jiang",
     maintainer_email="gtsam@example.com",
     description="PEP 561 type stubs for GTSAM",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url="http://www.gtsam.org",
     license="BSD",
-    version="0.0.1",
+    version="0.0.2",
     packages=["gtsam-stubs"],
     # PEP 561 requires these
     install_requires=[
