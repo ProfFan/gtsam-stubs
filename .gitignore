@@ -1,0 +1,14 @@
+.mypy_cache
+.pytest_cache
+__pycache__
+numpy_stubs.egg-info/
+venv
+.idea
+*~
+**~
+
+# MacOS
+.DS_Store
+
+# Visual studio code
+.vscode/

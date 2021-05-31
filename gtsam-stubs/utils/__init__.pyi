@@ -1,0 +1,3 @@
+from typing import Any
+
+def findExampleDataFile(name: Any): ...
