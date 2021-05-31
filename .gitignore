@@ -1,8 +1,7 @@
 .mypy_cache
 .pytest_cache
 __pycache__
-numpy_stubs.egg-info/
-venv
+.venv
 .idea
 *~
 **~
@@ -12,3 +11,6 @@ venv
 
 # Visual studio code
 .vscode/
+build/
+*.egg-info/
+dist/
