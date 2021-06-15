@@ -24,7 +24,7 @@ setup(
     long_description_content_type='text/markdown',
     url="http://www.gtsam.org",
     license="BSD",
-    version="0.0.2",
+    version="0.0.3",
     packages=["gtsam-stubs"],
     # PEP 561 requires these
     install_requires=[
